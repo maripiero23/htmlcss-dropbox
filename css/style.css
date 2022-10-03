@@ -3,3 +3,27 @@
     margin: 0;
     padding: 0;
 }
+
+
+.logo-title-container{
+    padding: 10px 5px;
+    display: flex;
+}
+
+.logo-link-container{
+    display: flex;
+}
+
+.logo-link-container ul{
+    display: flex;
+    align-items: center;
+}
+
+.logo-link-container a{
+    list-style: non;
+    text-decoration: none;
+}
+
+
+
+
