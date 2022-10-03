@@ -5,6 +5,7 @@
 }
 
 
+
 .logo-title-container{
     padding: 10px 5px;
     display: flex;
@@ -27,7 +28,7 @@
 }
 
 
-.header-container{
+.big-container{
     margin: auto;
     max-width: 1200px;
     border: 1px solid blue;
@@ -36,10 +37,10 @@
 }
 
 
-.main-container{
+.small-main-container{
     margin: auto;
     max-width: 920px;
-    border: 1px solid red;
+    border: 1px solid green;
     height: 200px; /*lo metto perchè non ho contenuto ancora*/
 }
 
