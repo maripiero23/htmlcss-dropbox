@@ -17,13 +17,30 @@
 .logo-link-container ul{
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .logo-link-container a{
     list-style: non;
     text-decoration: none;
+    padding: 10px;
 }
 
 
+.header-container{
+    margin: auto;
+    max-width: 1200px;
+    border: 1px solid blue;
+    height: 200px; /*lo metto perchè non ho contenuto ancora*/
+    text-align: center;
+}
+
+
+.main-container{
+    margin: auto;
+    max-width: 920px;
+    border: 1px solid red;
+    height: 200px; /*lo metto perchè non ho contenuto ancora*/
+}
 
 
