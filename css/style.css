@@ -3,28 +3,31 @@
     margin: 0;
     padding: 0;
 }
-
-
+/*******************NAV BAR******************/
+.nav-image{
+    width: 80px;
+}
 
 .logo-title-container{
-    padding: 10px 5px;
+    padding: 0 10px;
     display: flex;
 }
 
-.logo-link-container{
+.nav-left{
     display: flex;
 }
 
-.logo-link-container ul{
+.total-nav-flex ul{
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.logo-link-container a{
-    list-style: non;
+
+.total-nav-flex a{
     text-decoration: none;
     padding: 10px;
+    color: gray;
 }
 
 
@@ -44,4 +47,25 @@
     height: 200px; /*lo metto perchè non ho contenuto ancora*/
 }
 
+.nav-right{
+    display: flex;
+    padding-right: 10px;
+}
 
+
+.total-nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    background-color: rgba(0,97,255,255);
+    color: white;
+}
+
+/*****************HEADER********************/
+
+.big-container{
+    background-color: rgba(180,208,231,255)
+}
