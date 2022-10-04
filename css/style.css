@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;}
+
 /*******************NAV BAR******************/
 
 .total-nav-flex{
@@ -56,5 +60,17 @@ button{
 
 /*****************HEADER********************/
 
+.container-big{
+    max-width: 1200px;
+    margin: auto;
+}
 
+.container{
+    max-width: 920px;
+    margin: auto;
+}
+
+main section{
+    padding-top: 50px;
+}
 
