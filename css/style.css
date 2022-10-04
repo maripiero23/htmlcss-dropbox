@@ -65,10 +65,25 @@ h1{
     justify-content: space-between;
 }
 
-button{
+.btn-nav{
     border: none;
     background-color: rgba(0,97,255,255);
     color: white;
+    padding: 0.5rem;
+}
+
+
+/*button*/
+.btn{
+    border: none;
+    
+}
+
+.btn.btn-blue{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    padding: 0.5rem;
+    font
 }
 
 /*****************HEADER********************/
@@ -88,6 +103,9 @@ header{
     margin-bottom: var(--space-y);
 }
 
+header p{
+    margin-bottom: 1.5rem;
+}
 
 section{
 
@@ -160,4 +178,15 @@ main .container-920 .row{
 .container-square-image{
     width: 50%;
     aspect-ratio: 1/1;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+    font-size: 85px;
+}
+
+.jumbotron .col-30{
+    position: relative;
 }
