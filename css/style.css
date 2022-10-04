@@ -85,3 +85,9 @@ main section{
 .jumbotron{
     background-color: var(--color-secondary);
 }
+
+/*CONTENITORE COLONNE*/
+
+.row{
+    display: flex;
+}
