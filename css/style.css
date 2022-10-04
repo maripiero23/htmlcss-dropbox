@@ -76,7 +76,6 @@ header{
 
 .testo-img-container{
     display: flex;
-    width: 40%;
     flex-shrink: 0;
 }
 .img-container img{
