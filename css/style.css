@@ -138,6 +138,8 @@ main section{
 .col-33{
     width: 33.333%;
     aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img-block{
@@ -153,4 +155,9 @@ main .container-920 .row{
 .container.business .row{
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.container-square-image{
+    width: 50%;
+    aspect-ratio: 1/1;
 }
