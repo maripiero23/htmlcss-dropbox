@@ -1,6 +1,7 @@
 :root{
     --color-primary:rgba(0,97,255,255);
-    --color-secondary:rgba(180,208,231,255)
+    --color-secondary:rgba(180,208,231,255);
+    --space-y: 3rem;
 }
 
 
@@ -84,13 +85,20 @@ button{
     margin: auto;
 }
 
+header{
+    margin-bottom: var(--space-y);
+}
+
+
 section{
     border: 1px solid black;
 
 }
 
 main section{
-    padding-top: 50px;
+    padding-top: var(--space-y);
+    padding-bottom: var(--space-y);
+
 }
 
 
@@ -100,6 +108,7 @@ main section{
 
 .jumbotron .container-big{
     position: relative;
+    bottom: calc(0px - var(--space-y));
     
 
 }
