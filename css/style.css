@@ -12,12 +12,17 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
 
 /*******************NAV BAR******************/
 
 .total-nav-flex{
-    background-color: white;
+    background-color: red;
 }
 
 .nav-image{
@@ -70,11 +75,18 @@ button{
 .container-big{
     max-width: 1200px;
     margin: auto;
+    border: 1px solid black;
+
 }
 
 .container{
     max-width: 920px;
     margin: auto;
+}
+
+section{
+    border: 1px solid black;
+
 }
 
 main section{
@@ -86,8 +98,39 @@ main section{
     background-color: var(--color-secondary);
 }
 
+.jumbotron .container-big{
+    position: relative;
+    
+
+}
+
 /*CONTENITORE COLONNE*/
 
 .row{
     display: flex;
+    border: 1px solid black;
 }
+
+.col-30{
+    width: 30%;
+    border: 1px solid black;
+}
+
+
+.col-70{
+    width: 30%;
+    border: 1px solid black;
+}
+
+
+.col-60{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.col-40{
+    width: 30%;
+    border: 1px solid black;
+}
+
+
