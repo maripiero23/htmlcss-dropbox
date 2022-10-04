@@ -36,20 +36,6 @@
 }
 
 
-.big-container{
-    margin: auto;
-    max-width: 1200px;
-    border: 1px solid blue;
-    text-align: center;
-}
-
-
-.small-main-container{
-    margin: auto;
-    max-width: 920px;
-    border: 1px solid green;
-    height: 200px; /*lo metto perchè non ho contenuto ancora*/
-}
 
 .nav-right{
     display: flex;
@@ -70,33 +56,5 @@ button{
 
 /*****************HEADER********************/
 
-header{
-    background-color: rgba(180,208,231,255);
-}
 
-.testo-img-container{
-    display: flex;
-    flex-shrink: 0;
-}
-.img-container img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-}
-
-.img-container{
-    width: 60%;
-    flex-shrink: 0;
-}
-
-
-
-.big-container{
-    padding: 20px 0;
-}
-
-
-.text-button{
-    width: 40%;
-}
 
