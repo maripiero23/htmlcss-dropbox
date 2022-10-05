@@ -200,7 +200,7 @@ main .container-920 .row{
 
 /*colonne singolo-team-aziend*/
 
-.row .column-header{
+.column-header{
     text-align: center;
     padding: 10px;
 }
@@ -252,8 +252,10 @@ main .container-920 .row{
     color: blue;
 }
 
-.mese-color-gray line   {
+.mese-color-gray line{
     border-bottom: 1px solid lightgray;
     width: 10%;
 }
+
+/*ETERPRISE-TEAM*/
 
