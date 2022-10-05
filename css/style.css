@@ -29,6 +29,7 @@ h1,h2{
     margin-bottom: 3rem;
 }
 
+
 /*******************NAV BAR******************/
 
 
@@ -90,7 +91,14 @@ h1,h2{
     background-color: rgba(0,97,255,255);
     color: white;
     padding: 0.5rem;
-    font
+    
+}
+
+.btn.btn-white{
+    background-color: white;
+    color:black;
+    padding: 0.5rem;
+    border:1px solid black;
 }
 
 /*****************HEADER********************/
@@ -259,3 +267,16 @@ main .container-920 .row{
 
 /*ETERPRISE-TEAM*/
 
+scrivi reola bottone
+
+/*SEZIONE4*/
+
+.different-space{
+    margin-bottom: 0;
+    padding: 2rem 2rem 0 0;
+}
+
+
+
+
+/*SEZIONE5*/
