@@ -149,7 +149,9 @@ main section{
 .row{
     display: flex;
 }
-
+.row-wrap{
+    flex-wrap: wrap;
+}
 .col-30{
     width: 30%;
 }
@@ -265,6 +267,16 @@ main .container-920 .row{
     width: 10%;
 }
 
+
+.container-920.space{
+    margin-bottom: 2rem;
+}
+
+/*SEZIONE3*/
+.horizontal-team .col-30{
+    text-align: right;
+    padding: 20px;
+}
 /*ETERPRISE-TEAM*/
 
 scrivi reola bottone
@@ -280,3 +292,13 @@ scrivi reola bottone
 
 
 /*SEZIONE5*/
+
+
+.row .row-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.different-space{
+    padding: 25px 15px;
+}
