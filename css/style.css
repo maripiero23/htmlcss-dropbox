@@ -231,7 +231,7 @@ main .container-920 .row{
 
 .empty-line-gray{
     border-bottom: 1px solid lightgray;
-    width: 30%;
+    width: 10%;
 }
 
 .card-link-acquista{
@@ -247,9 +247,13 @@ main .container-920 .row{
 }
 
 
-.fa-solid .blue{
+.check i{
     font-weight: 900;
-    color: black;
+    color: blue;
 }
+
+.mese-color-gray line   {
+    border-bottom: 1px solid lightgray;
+    width: 10%;
 }
 
