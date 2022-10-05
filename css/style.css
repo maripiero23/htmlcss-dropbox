@@ -203,5 +203,53 @@ main .container-920 .row{
 .row .column-header{
     text-align: center;
     padding: 10px;
-
 }
+
+.column-body{
+    padding: 25px 15px;
+}
+
+.column-body .space{
+    margin-bottom: 3rem;
+}
+
+
+.column-body li{
+    list-style: none;
+}
+
+
+.column-body li{
+    margin-bottom: 1.5rem;
+}
+
+.column-body .btn{
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.empty-line-gray{
+    border-bottom: 1px solid lightgray;
+    width: 30%;
+}
+
+.card-link-acquista{
+    padding:0rem
+}
+
+.column-body .a{
+    text-decoration: none;
+}
+
+.column-body .y{
+    margin-bottom: 2rem;
+}
+
+
+.fa-solid .blue{
+    font-weight: 900;
+    color: black;
+}
+}
+
