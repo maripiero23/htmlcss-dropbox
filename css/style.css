@@ -1,6 +1,7 @@
 :root{
     --color-primary:rgba(0,97,255,255);
     --color-secondary:rgba(180,208,231,255);
+    --color-footer:rgba(0,0,0,255)
     --space-y: 3rem;
 }
 
@@ -10,7 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid lightsalmon;
+   /*border: 1px solid lightsalmon;*/
 
 }
 
@@ -154,6 +155,7 @@ main section{
 }
 .col-30{
     width: 30%;
+    border: 1px solid lightgray;
 }
 
 
@@ -186,6 +188,17 @@ main .container-920 .row{
     justify-content: space-between;
 }
 
+.horizontal-team{
+    margin-top: 2rem;
+}
+
+.col-70{
+    border: 1px solid lightgray;
+}
+
+.col-40.add-padd{
+    padding-left: 2rem;
+}
 
 .container.business .row{
     flex-wrap: wrap;
@@ -213,6 +226,7 @@ main .container-920 .row{
 .column-header{
     text-align: center;
     padding: 10px;
+    border: 1px solid lightgray;
 }
 
 .column-body{
@@ -318,4 +332,16 @@ scrivi reola bottone
 
 .jumbotron .container-1200{
     position: relative;
+}
+
+
+.jumbotron{
+    margin-top: 60px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: var(--color-footer);
 }
