@@ -197,3 +197,11 @@ main .container-920 .row{
 .jumbotron .col-30{
     position: relative;
 }
+
+/*colonne singolo-team-aziend*/
+
+.row .column-header{
+    text-align: center;
+    padding: 10px;
+
+}
