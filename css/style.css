@@ -302,3 +302,20 @@ scrivi reola bottone
 .different-space{
     padding: 25px 15px;
 }
+
+
+
+
+/*FISSO LA NAVBAR*/
+.total-nav-flex{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    z-index: 10;
+}
+
+.jumbotron .container-1200{
+    position: relative;
+}
