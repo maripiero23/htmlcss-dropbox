@@ -18,8 +18,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+.title-size{
     font-size: 4rem;
+
+
+}
+
+
+h1,h2{
+    margin-bottom: 3rem;
 }
 
 /*******************NAV BAR******************/
