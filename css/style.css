@@ -231,7 +231,11 @@ main .container-920 .row{
 }
 
 .column-body .space{
-    margin-bottom: 3rem;
+    padding-bottom: .5rem;
+}
+
+.column-body .space2{
+    padding-bottom: 2rem;
 }
 
 
@@ -309,8 +313,8 @@ main .container-920 .row{
 /*SEZIONE5*/
 
 .col-30 h5{
-    padding: 0.5rem;
-    font-style:
+    padding: 1.5rem 0;
+    font-size: 1rem
 }
 
 .col-30 p{
@@ -324,12 +328,27 @@ main .container-920 .row{
     margin-bottom: 4rem;
 }
 
+
+
+
 .different-space{
     padding: 25px 15px;
 }
 
+/**************SEZIONE6*************/
+main .drop-azienda{
+    background-color: var(--color-secondary);
 
+}/* dare il colore alla sezione*/
 
+/*************SEZIONE7****************/
+.questions .row{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+.row-container .col-40{
+    text-align: end;
+}
 
 /*FISSO LA NAVBAR*/
 .total-nav-flex{
