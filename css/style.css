@@ -291,9 +291,9 @@ main .container-920 .row{
     text-align: right;
     padding: 20px;
 }
-/*ETERPRISE-TEAM*/
 
-scrivi reola bottone
+
+
 
 /*SEZIONE4*/
 
@@ -309,7 +309,7 @@ scrivi reola bottone
 
 .col-30 h5{
     padding: 0.5rem
-    font-size
+    font-style
 }
 
 .col-30 p{
@@ -320,6 +320,7 @@ scrivi reola bottone
 .row .row-wrap{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 .different-space{
@@ -359,3 +360,7 @@ footer{
     background-color: var(--color-footer);
 }
 
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
