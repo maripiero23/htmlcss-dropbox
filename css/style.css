@@ -328,6 +328,12 @@ main .container-920 .row{
     margin-bottom: 4rem;
 }
 
+.sqr{
+    border: 1px solid black;
+}
+.sqr .square-container .row .col-33 .container-square-image{
+    border: 1px solid black;
+}
 
 
 
