@@ -11,7 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   /*border: 1px solid lightsalmon;*/
+   /* border: 1px solid lightsalmon;*/
 
 }
 
@@ -141,8 +141,6 @@ main section{
 .jumbotron .container-1200{
     position: relative;
     bottom: calc(0px - var(--space-y));
-    
-
 }
 
 /*CONTENITORE COLONNE*/
@@ -212,7 +210,7 @@ main .container-920 .row{
 
 .arrow{
     position: absolute;
-    bottom: 55px;
+    bottom: 100px;
     left: 0;
     font-size: 85px;
 }
@@ -220,6 +218,8 @@ main .container-920 .row{
 .jumbotron .col-30{
     position: relative;
 }
+
+
 
 /*colonne singolo-team-aziend*/
 
@@ -307,6 +307,15 @@ scrivi reola bottone
 
 /*SEZIONE5*/
 
+.col-30 h5{
+    padding: 0.5rem
+    font-size
+}
+
+.col-30 p{
+    padding-bottom: 2rem;
+
+}
 
 .row .row-wrap{
     display: flex;
@@ -326,22 +335,27 @@ scrivi reola bottone
     top: 0;
     left: 0;
     width: 100%;
-    background-color: red;
     z-index: 10;
+    background-color: white;
 }
 
 .jumbotron .container-1200{
     position: relative;
+    top:80px;
 }
 
 
 .jumbotron{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
+.container-920.space{
+    margin-top: 120px;
+}
 
 /*FOOTER*/
 
 footer{
     background-color: var(--color-footer);
 }
+
